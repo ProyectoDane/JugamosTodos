@@ -629,22 +629,22 @@ public class GameOneActivity extends BaseActivity {
             arrayDeAnimales.add(new Animal(R.drawable.foca, R.raw.foca, R.raw.video_foca, "FOCA", "FO", "CA", ""));
             arrayDeAnimales.add(new Animal(R.drawable.gato, R.raw.gato, R.raw.video_gato, "GATO", "GA", "TO", ""));
             arrayDeAnimales.add(new Animal(R.drawable.leon, R.raw.leon, R.raw.video_leon, "LEON", "LE", "ON", ""));
-            arrayDeAnimales.add(new Animal(R.drawable.llama, 0, R.raw.video_llama, "LLAMA", "LLA", "MA", ""));
+            arrayDeAnimales.add(new Animal(R.drawable.llama,R.raw.llama, R.raw.video_llama, "LLAMA", "LLA", "MA", ""));
             arrayDeAnimales.add(new Animal(R.drawable.loro, R.raw.loro, R.raw.video_loro, "LORO", "LO", "RO", ""));
             arrayDeAnimales.add(new Animal(R.drawable.mono, R.raw.mono, R.raw.video_mono, "MONO", "MO", "NO", ""));
             arrayDeAnimales.add(new Animal(R.drawable.oso, R.raw.oso, R.raw.video_oso, "OSO", "O", "SO", ""));
             arrayDeAnimales.add(new Animal(R.drawable.pato, R.raw.pato, R.raw.video_pato, "PATO", "PA", "TO", ""));
             arrayDeAnimales.add(new Animal(R.drawable.perro, R.raw.perro, R.raw.video_perro, "PERRO", "PE", "RRO", ""));
             arrayDeAnimales.add(new Animal(R.drawable.raton, R.raw.raton, R.raw.video_raton, "RATON", "RA", "TON", ""));
-            arrayDeAnimales.add(new Animal(R.drawable.sapo, 0, R.raw.video_sapo, "SAPO", "SA", "PO", ""));
+            arrayDeAnimales.add(new Animal(R.drawable.sapo, R.raw.sapo, R.raw.video_sapo, "SAPO", "SA", "PO", ""));
             arrayDeAnimales.add(new Animal(R.drawable.vaca, R.raw.vaca, R.raw.video_vaca, "VACA", "VA", "CA", ""));
 
 
         } else /* dificultad == 2 */ {
-            arrayDeAnimales.add(new Animal(R.drawable.arana, 0, R.raw.video_arana, "ARAÑA", "A", "RA", "ÑA"));
+            arrayDeAnimales.add(new Animal(R.drawable.arana, R.raw.arana, R.raw.video_arana, "ARAÑA", "A", "RA", "ÑA"));
             arrayDeAnimales.add(new Animal(R.drawable.ballena, R.raw.ballena, R.raw.video_ballena, "BALLENA", "BA", "LLE", "NA"));
             arrayDeAnimales.add(new Animal(R.drawable.camello, R.raw.camello, R.raw.video_camello, "CAMELLO", "CA", "ME", "LLO"));
-            arrayDeAnimales.add(new Animal(R.drawable.cangrejo, 0, R.raw.video_cangrejo, "CANGREJO", "CAN", "GRE", "JO"));
+            arrayDeAnimales.add(new Animal(R.drawable.cangrejo, R.raw.cangrejo, R.raw.video_cangrejo, "CANGREJO", "CAN", "GRE", "JO"));
             arrayDeAnimales.add(new Animal(R.drawable.canguro, R.raw.canguro, R.raw.video_canguro, "CANGURO", "CAN", "GU", "RO"));
             arrayDeAnimales.add(new Animal(R.drawable.conejo, R.raw.conejo, R.raw.video_conejo, "CONEJO", "CO", "NE", "JO"));
             arrayDeAnimales.add(new Animal(R.drawable.gallina, R.raw.gallina, R.raw.video_gallina, "GALLINA", "GA", "LLI", "NA"));
@@ -653,7 +653,7 @@ public class GameOneActivity extends BaseActivity {
             arrayDeAnimales.add(new Animal(R.drawable.oveja, R.raw.oveja, R.raw.video_oveja, "OVEJA", "O", "VE", "JA"));
             arrayDeAnimales.add(new Animal(R.drawable.pajaro, R.raw.pajaro, R.raw.video_pajaro, "PAJARO", "PA", "JA", "RO"));
             arrayDeAnimales.add(new Animal(R.drawable.pinguino, R.raw.pinguino, R.raw.video_pinguino, "PINGÜINO", "PIN", "GÜI", "NO"));
-            arrayDeAnimales.add(new Animal(R.drawable.tortuga, 0, R.raw.video_tortuga, "TORTUGA", "TOR", "TU", "GA"));
+            arrayDeAnimales.add(new Animal(R.drawable.tortuga, R.raw.tortuga, R.raw.video_tortuga, "TORTUGA", "TOR", "TU", "GA"));
             arrayDeAnimales.add(new Animal(R.drawable.vibora, R.raw.serpiente, R.raw.video_vibora, "VIBORA", "VI", "BO", "RA"));
 
         }
