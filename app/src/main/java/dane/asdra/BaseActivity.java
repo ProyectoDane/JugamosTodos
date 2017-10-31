@@ -67,10 +67,15 @@ public class BaseActivity extends FragmentActivity{
         overridePendingTransition(R.anim.vertical_open_main, R.anim.vertical_close_next);
     }
 
-    public void infoScreen(){
-        Intent viewIntent = new Intent("android.intent.action.VIEW", Uri.parse("http://www.fundasor.org.ar/"));
+    public void nextScreen(Class clase, int videoId,boolean hideMediaControllerBar){
+        Intent intent = new Intent(this, clase);
 
-        startActivity(viewIntent);
+        intent.putExtra("videoId", videoId);
+        if (hideMediaControllerBar){
+            intent.putExtra("secondOfShowingMediaController", -1);
+        }
+
+        startActivity(intent);
         overridePendingTransition(R.anim.vertical_open_main, R.anim.vertical_close_next);
     }
 

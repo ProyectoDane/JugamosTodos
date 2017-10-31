@@ -37,7 +37,7 @@ public class VideoInfoActivity extends BaseActivity {
             @Override
             public void onPrepared(MediaPlayer mp){
                 videoHolder.start();
-                mediaController.show(0);
+                mediaController.show(getIntent().getIntExtra("secondOfShowingMediaController",0));
             }
 
         });

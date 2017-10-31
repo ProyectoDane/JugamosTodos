@@ -237,8 +237,8 @@ public class HomeActivity extends BaseActivity {
 
             @Override
             public void onClick(View view) {
-                infoScreen();
-
+                boolean hideVideoControllerBar = true;
+                nextScreen(VideoInfoActivity.class,R.raw.video_fundasor,hideVideoControllerBar);
             }
         });
     }
